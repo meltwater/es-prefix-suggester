@@ -29,8 +29,10 @@ Parameters:
  - ***min_prefix_length***: The minimum numbers of characters in the prefix.
 
 Example usage:
+
     curl localhost:9200/_suggest -d '{"my-suggestion":{"text":"Obam","prefix":{"min_prefix_length":2, "field":"text"}}}'
 Example response:
+```
     {
       "_shards": {
         "total": 2,
@@ -55,6 +57,7 @@ Example response:
         }
       ]
     }
+```
 
 # License
 
