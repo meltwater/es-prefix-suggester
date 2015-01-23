@@ -1,0 +1,13 @@
+.classpath
+.project
+.settings
+.idea
+*.iml
+out
+.gradle
+build
+/bin
+.pom
+*.swp
+pom.xml
+test-temp
